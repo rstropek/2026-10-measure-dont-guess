@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Slidev build / export output (regenerate with npm run build / npm run export)
+dist/
+.slidev/
+*-export.pdf
+*-export.pptx
+*-export/
+preview.pdf
+
+# Vite / tooling caches
+.vite/
+.cache/
+*.log
+npm-debug.log*
+
+# Local environment / secrets
+.env
+.env.*
+*.local
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
